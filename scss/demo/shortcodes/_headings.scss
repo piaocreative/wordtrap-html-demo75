@@ -1,0 +1,47 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: headings.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Heading Styles
+-----------------------------------------------------------------*/
+
+
+/* Heading Block - with Subtitle
+-----------------------------------------------------------------*/
+
+.heading-block { 
+	margin-bottom: 1.5rem; 
+	position: relative;
+
+	.title {
+		color: $secondary;
+		font-family: $heading-font;
+		font-weight: 400;
+		letter-spacing: 0.1rem;
+	}
+
+	.heading-icon {
+		
+		background-repeat: no-repeat;
+		background-size: 100%;
+		display: inline-block;
+		min-width: 4rem;
+		height: 2rem;
+
+		&.black {
+			background-image: url(../images/icons/heading-icon-black.png);
+		}
+
+		&.white {
+			background-image: url(../images/icons/heading-icon-white.png);
+		}
+
+		&.pink {
+			background-image: url(../images/icons/heading-icon-pink.png);
+		}
+	}
+}

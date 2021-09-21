@@ -1,0 +1,23 @@
+/* ----------------------------------------------------------------
+
+	404.scss
+
+-----------------------------------------------------------------*/
+.error-sidebar {
+    li {
+        a {
+            font-family: $heading-font;
+            font-size: 1.875rem;
+            text-decoration: none;
+            color: #272724;
+
+            &:hover {
+                color: $theme-color;
+            }
+
+            @include media-breakpoint-down(sm) {
+                font-size: 1.25rem;
+            }
+        }
+    }
+}

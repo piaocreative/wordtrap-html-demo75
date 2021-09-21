@@ -1,0 +1,42 @@
+
+/* ----------------------------------------------------------------
+
+	extras.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Extra Styles
+-----------------------------------------------------------------*/
+.shipping-banner {
+	position: absolute;
+	left: 4.375rem;
+	top: 5.625rem;	
+}
+
+.indicator {
+	a {
+		font-size: 0.5rem;
+		color: #d7d6f6;
+
+		&:nth-child(1) {
+			color: $theme-color;
+		}
+
+		&:not(:first-child) {
+			margin-left: 1rem;
+		}
+	}
+}
+
+.about-banner {
+	position: relative;
+    bottom: -7rem;
+    margin-top: -5rem;
+}
+
+.newsletter {
+	padding-top: 6rem;
+	padding-bottom: 7.5rem;
+}
