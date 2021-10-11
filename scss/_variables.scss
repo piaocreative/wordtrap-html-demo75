@@ -35,15 +35,14 @@ $heading-font:                'Orelega One', cursive;
 
 // Font sizes
 $h1-font-size:                	4.5rem;
-$h1-about: 						          5.375rem;
 $h2-font-size:                	3.75rem;
 $h3-font-size:                	3rem;
 $h4-font-size:                	1.5rem;
 $h5-font-size:                	1.125rem;
-$h6-font-size:               	  0.875rem;
+$h6-font-size:               	0.875rem;
 
 
-$grid-gutter-width:             2.5rem;
+$grid-gutter-width:             3.25rem;
 
 // border//
 $border-radius:               0.5rem;
@@ -100,7 +99,7 @@ $input-btn-focus-color-opacity: 1;
 
 $input-btn-padding-y:           0.875rem;
 $input-btn-padding-x:           2rem;
-$input-btn-font-size:           0.815rem;
+$input-btn-font-size:           0.875rem;
 
 $input-btn-padding-y-sm:        0.67rem;
 $input-btn-padding-x-sm:        1.5rem;
@@ -116,7 +115,7 @@ $input-btn-focus-width:         1px;
 $input-focus-border-color:      $theme-color;
 
 $input-border-radius:           2rem;
-$input-border-radius-sm:        1rem !important;
+$input-border-radius-sm:        1rem;
 $input-border-radius-lg:        1.83rem;
 
 $input-font-weight:				      300;

@@ -51,10 +51,6 @@
 			width: 100%;
 			border-radius: 0.5rem;
 		}
-
-		@include media-breakpoint-down(lg) {
-			width: 100% !important;
-		}
 	}
 
 	.product-details {
@@ -99,7 +95,6 @@
 	}
 
 	.product-info {
-		font-family: $body-font;
 		font-size: 0.875rem;
 		color: #b1b2b0;
 		font-weight: 300;

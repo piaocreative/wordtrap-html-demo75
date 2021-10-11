@@ -20,16 +20,9 @@
 	position: relative;
 
 	p {
-		font-size: 1rem;
-		font-family: $body-font;
 		font-weight: 300;
-		line-height: 1.5rem !important;
+		line-height: 1.5rem;
 		color: #8f8f8f;
-	}
-
-	a {
-		font-family: $body-font;
-		font-weight: 400;
 	}
 
 	.widget-title {
@@ -76,12 +69,6 @@
 						line-height: 1.8125rem;
 						padding: 0.5rem;
 						font-size: 1.125rem;
-					}
-
-					&.contact {
-						color: $primary !important;
-						background-color: $white;
-						border-radius: 50%;
 					}
 				}
 			}
@@ -149,10 +136,10 @@
 				background-size: 80% auto;
 				background-repeat: no-repeat;
 				background-position: center;
-				border-radius: 0.5rem !important;
+				border-radius: 0.5rem;
 
 				@include media-breakpoint-down(sm) {
-					width: 4rem !important;
+					width: 4rem;
 				}
 
 				&.visa {
@@ -188,32 +175,10 @@
 				margin-bottom: 0.75rem;
 				font-family: $heading-font;
 				letter-spacing: 0.1rem;
-				text-decoration: none;
 			}
 
 			h4 {
 				font-size: 1.875rem;
-			}
-		}
-	}
-
-	// Widget - feedback
-	&.widget-feedback {
-		.widget-content {
-			p {
-				letter-spacing: 0.1rem
-			}
-
-			#widget-feedback-form {
-
-				input {
-					background-color: #f9f9f9;
-					color:#d0d0d0;
-				}
-				
-				.input-group-append {
-					margin-left: -2.875rem;
-				}
 			}
 		}
 	}
@@ -239,38 +204,6 @@
 			::placeholder {
 				color: #c3c3c3;
 				opacity: 1; 
-			}
-		}
-	}
-
-	// Widget - Products
-	&.widget-products {
-		.widget-content {
-			.product {
-				display: flex;
-				align-items: center;
-				margin-bottom: 0.625rem;
-
-				.product-image {
-					flex: 1;
-					height: 8.25rem;
-					max-width: 9.75rem;
-				}
-
-				.product-details {
-					flex: 1;
-					padding: 0 1.25rem;					
-				}
-
-				.product-price {					
-					margin-bottom: 0.625rem;
-				}
-
-				.product-title {
-					a {
-						color: $white;																		
-					}					
-				}
 			}
 		}
 	}
