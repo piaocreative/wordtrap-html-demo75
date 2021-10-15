@@ -41,7 +41,7 @@
 /* Product
 -----------------------------------------------------------------*/
 .product {
-	margin-bottom: 2.5rem;
+	margin-bottom: 1.875rem;
 	position: relative;
 
 	.product-image {
@@ -235,11 +235,6 @@
 		.ads-body {
 			position: relative;
 			z-index: 1;
-	
-			a {
-				padding: 1.25rem 3.5rem;
-				letter-spacing: 0.05rem;
-			}
 		}	
 	}
 }
