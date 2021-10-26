@@ -36,4 +36,22 @@ $( document ).ready( function() {
         });
     } 
 
+    if ( $( '.posts' ).length ) {
+        $( '.posts' ).slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        dots:false,
+                    }
+                },
+            ]
+        });
+    } 
+
 } );
